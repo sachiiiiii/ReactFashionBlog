@@ -1,0 +1,84 @@
+html {
+  border-left: 5px solid lightgray;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  color: tomato;
+}
+
+img {
+  width: 100%;
+}
+
+nav.nav ul {
+  padding: 0%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* LINK STYLING */
+/* Default color for univisited links */
+header nav.nav ul li a:link {
+  color: lightgray;
+}
+/* Color when link has focus (e.g., via keyboard navigation) */
+header nav.nav ul li a:focus {
+  color: orange;
+}
+/* Default color for univisited links */
+footer nav.nav ul li a:link {
+  color: tomato;
+}
+/* Color when link has focus (e.g., via keyboard navigation) */
+footer nav.nav ul li a:focus {
+  color: brown;
+}
+
+/* BLOG POST STYLING */
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+article h2 {
+  font-size: xx-large;
+}
+
+article p::first-letter {
+  color: lightgray;
+  font-size: 70px;
+  padding: 0px 9px 0px 0px;
+  margin: 0;
+  float: left;
+}
+
+article a {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  font-weight: bold;
+  color: tomato;
+}
+
+article a:focus {
+  color: brown;
+}
+
+footer {
+  color: lightgray;
+}
